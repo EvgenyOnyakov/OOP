@@ -255,9 +255,9 @@ public:
     void Flip()
     {
         if (m_IsFaceUp)
-            m_IsFaceUp = true;
-        else
             m_IsFaceUp = false;
+        else
+            m_IsFaceUp = true;
     }
 
     int GetValue()
