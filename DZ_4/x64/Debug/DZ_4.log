@@ -1,0 +1,3 @@
+﻿  DZ_4.cpp
+F:\DZ_Geek_Brains\OOP\DZ_4\DZ_4.cpp(145,17): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  DZ_4.vcxproj -> F:\DZ_Geek_Brains\OOP\DZ_4\x64\Debug\DZ_4.exe
