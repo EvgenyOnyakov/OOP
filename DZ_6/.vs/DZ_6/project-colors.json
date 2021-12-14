@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dac4efef-56d9-46a5-9a5a-6947dc3f5bf1": {
+      "ProjectGuid": "dac4efef-56d9-46a5-9a5a-6947dc3f5bf1",
+      "DisplayName": "DZ_6",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

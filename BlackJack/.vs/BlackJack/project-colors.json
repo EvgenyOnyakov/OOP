@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "41619f83-45ec-4f1b-a02a-ad060b4d79d3": {
+      "ProjectGuid": "41619f83-45ec-4f1b-a02a-ad060b4d79d3",
+      "DisplayName": "BlackJack",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
