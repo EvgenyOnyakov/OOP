@@ -216,7 +216,7 @@ class Player : public GenericPlayer
 {
 public:
     
-    Player(const string& name = "") {}
+    Player(const string& name = "") : GenericPlayer(name) {}
 
     virtual ~Player() {}
 
@@ -253,7 +253,7 @@ public:
 class House : public GenericPlayer
 {
 public:
-    House(const string& name = "House"){}
+    House(const string& name = "House") : GenericPlayer(name) {}
 
     virtual ~House(){}
 

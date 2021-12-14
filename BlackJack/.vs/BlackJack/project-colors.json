@@ -5,6 +5,11 @@
       "ProjectGuid": "41619f83-45ec-4f1b-a02a-ad060b4d79d3",
       "DisplayName": "BlackJack",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
