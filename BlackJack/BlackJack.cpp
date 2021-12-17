@@ -82,7 +82,6 @@ ostream& operator<<(ostream& os, const Card& aCard)
     return os;
 }
 
-
 // ======================================================= HAND =======================================================
 
 class Hand
@@ -308,9 +307,9 @@ public:
     // тасует карты
     void Shuffle()
     {
-        std::random_device rd;
-        std::mt19937 g(rd());
-        std::shuffle(m_Cards.begin(), m_Cards.end(), g);        
+        random_device rd;
+        mt19937 g(rd());
+        shuffle(m_Cards.begin(), m_Cards.end(), g);        
     }
 
     // раздает одну карту в руку
