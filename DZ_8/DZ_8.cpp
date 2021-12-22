@@ -82,13 +82,13 @@ public:
 	{
 		if (new_pos_x > 10 || new_pos_x < 1)
 		{
-			m_message += "Ошибка координаты X! Робот выходит за границу поля!\n";
+			m_message += "Ошибка первой координаты! Робот выходит за границу поля!\n";
 			m_message += '[' + to_string(cur_pos_x) + ':' + to_string(cur_pos_y) + "] => [" +
 				to_string(new_pos_x) + ':' + to_string(new_pos_y) + "]\n";
 		}
 		if (new_pos_y > 10 || new_pos_y < 1)
 		{
-			m_message += "Ошибка координаты Y! Робот выходит за границу поля!\n";
+			m_message += "Ошибка второй координаты! Робот выходит за границу поля!\n";
 			m_message += '[' + to_string(cur_pos_x) + ':' + to_string(cur_pos_y) + "] => [" +
 				to_string(new_pos_x) + ':' + to_string(new_pos_y) + "]\n";
 		}
@@ -113,21 +113,21 @@ public:
 	{
 		if (abs(cur_pos_x - new_pos_x) > 1)
 		{
-			m_message += "Ошибка координаты X! Шаг слишком велик!\n";
+			m_message += "Ошибка первой координаты! Шаг слишком велик!\n";
 			m_message += '[' + to_string(cur_pos_x) + ':' + to_string(cur_pos_y) + "] => [" +
 				to_string(new_pos_x) + ':' + to_string(new_pos_y) + "]\n";
 		}
 
 		if (abs(cur_pos_y - new_pos_y) > 1)
 		{
-			m_message += "Ошибка координаты Y! Шаг слишком велик!\n";
+			m_message += "Ошибка второй координаты! Шаг слишком велик!\n";
 			m_message += '[' + to_string(cur_pos_x) + ':' + to_string(cur_pos_y) + "] => [" +
 				to_string(new_pos_x) + ':' + to_string(new_pos_y) + "]\n";
 		}
 
 		if (cur_pos_x == new_pos_x && cur_pos_y == new_pos_y)
 		{
-			m_message += "Ошибка координаты X и Y! Нельзя шагнуть на текущее место!\n";
+			m_message += "Ошибка первой или второй координаты! Нельзя шагнуть на текущее место!\n";
 			m_message += '[' + to_string(cur_pos_x) + ':' + to_string(cur_pos_y) + "] => [" +
 				to_string(new_pos_x) + ':' + to_string(new_pos_y) + "]\n";
 		}
